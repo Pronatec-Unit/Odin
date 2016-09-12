@@ -5,7 +5,7 @@ Dicionário de Nomes
 1. Luan Klisman: Gerente de Projeto
 2. Geilson Silva: Programador
 3. Joicy Dias: Designer e Programadora
-4. Clayton Alves: Designer e Programador
+4. Clayton Soares Alves: Designer e Programador
 
 ## Cronograma
 Data | Atividade
