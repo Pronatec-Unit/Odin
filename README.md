@@ -1,7 +1,7 @@
 ﻿# Odin
 Dicionário de Nomes
 
-## Nome da Equipe
+## Fsociety
 1. Luan Klisman: Gerente de Projeto
 2. Geilson Silva: Programador
 3. Joicy Dias: Designer e Programadora
