@@ -54,7 +54,9 @@
         android:id="@+id/btnCalcular"
         android:layout_below="@+id/formNota02"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp" />
+        android:layout_marginTop="40dp"
+        android:textColor="#f1eded"
+        android:background="@color/colorPrimary" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -64,6 +66,8 @@
         android:id="@+id/textResultado"
         android:layout_below="@+id/btnCalcular"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="33dp" />
+        android:layout_marginTop="33dp"
+        android:textColor="#e32121"
+        android:textSize="24dp" />
 
 </RelativeLayout>
