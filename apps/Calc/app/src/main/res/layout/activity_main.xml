@@ -26,7 +26,11 @@
         android:layout_below="@+id/textNota01"
         android:layout_marginTop="40dp"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColorLink="?attr/colorPrimary"
+        android:width="8dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -45,7 +49,11 @@
         android:layout_below="@+id/textNota02"
         android:layout_marginTop="38dp"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColorLink="?attr/colorPrimary"
+        android:maxWidth="8dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -69,5 +77,14 @@
         android:layout_marginTop="33dp"
         android:textColor="#e32121"
         android:textSize="24dp" />
+
+    <TextView
+        android:text="Digite suas notas logo abaixo."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:textSize="18sp" />
 
 </RelativeLayout>
