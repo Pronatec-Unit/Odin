@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView textResultado; // Declarada Variável textResultado
     private double nota01;
     private double nota02;
+    private double calcNota01;
+    private double calcNota02;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +31,10 @@ public class MainActivity extends AppCompatActivity {
                 nota01 = Double.parseDouble(formNota01.getText().toString());
                 nota02 = Double.parseDouble(formNota02.getText().toString());
 
-                Double media = calcularMedia(nota01, nota02);
+                calcNota01 = (nota01 * 4);
+                calcNota02 = (nota02 * 6);
+
+                Double media = calcularMedia(calcNota01, calcNota02);
                 if (media>=7)
                     textResultado.setText("APROVADO!!! sua média é: " + media.toString()); // Saida
                 else {
@@ -40,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     }
     // Calculo
     private double calcularMedia(double n1, double n2) {
-        double mediaFinal = (n1 + n2) / 2;
+        double mediaFinal = (n1 + n2);
         return mediaFinal;
 
     }
