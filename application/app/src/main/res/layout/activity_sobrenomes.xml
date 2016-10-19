@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.a06235434.preodin.Sobrenomes"
+    android:paddingStart="25dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOBRENOMES"
+        android:id="@+id/button"
+        android:width="600dp"
+        android:height="80dp"
+        android:background="#fba720"
+        android:textColor="#fffefe"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ESCOLHA UMA LETRA ABAIXO"
+        android:id="@+id/textView2"
+        android:layout_marginTop="106dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:id="@+id/button2"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="122dp"
+        android:background="#fba720"
+        android:layout_marginRight="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toEndOf="@+id/button2"
+        android:background="#fba720"
+        android:layout_marginRight="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:id="@+id/button4"
+        android:layout_alignTop="@+id/button3"
+        android:layout_toEndOf="@+id/button3"
+        android:background="#fba720"
+        android:layout_marginRight="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:id="@+id/button5"
+        android:layout_alignTop="@+id/button4"
+        android:layout_toEndOf="@+id/button4"
+        android:background="#fba720"
+        android:layout_marginRight="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="E"
+        android:id="@+id/button7"
+        android:layout_alignTop="@+id/button5"
+        android:layout_toEndOf="@+id/button5"
+        android:background="#fba720" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="F"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:background="#fba720"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="G"
+        android:id="@+id/button8"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:background="#fba720"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="H"
+        android:id="@+id/button9"
+        android:layout_below="@+id/button3"
+        android:layout_toEndOf="@+id/button8"
+        android:background="#fba720"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="I"
+        android:id="@+id/button10"
+        android:layout_below="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:background="#fba720"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="J"
+        android:id="@+id/button11"
+        android:layout_below="@+id/button5"
+        android:layout_toEndOf="@+id/button10"
+        android:background="#fba720"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="K"
+        android:id="@+id/button12"
+        android:layout_below="@+id/button6"
+        android:layout_toStartOf="@+id/button8"
+        android:background="#fba720"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="P"
+        android:id="@+id/button13"
+        android:background="#fba720"
+        android:layout_below="@+id/button12"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="U"
+        android:id="@+id/button14"
+        android:background="#fba720"
+        android:layout_below="@+id/button13"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="L"
+        android:id="@+id/button15"
+        android:layout_below="@+id/button6"
+        android:layout_toEndOf="@+id/button12"
+        android:background="#fba720"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="Q"
+        android:id="@+id/button16"
+        android:background="#fba720"
+        android:layout_below="@+id/button15"
+        android:layout_alignStart="@+id/button15"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="V"
+        android:id="@+id/button17"
+        android:background="#fba720"
+        android:layout_below="@+id/button13"
+        android:layout_toEndOf="@+id/button14"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="Z"
+        android:id="@+id/button18"
+        android:background="#fba720"
+        android:layout_below="@+id/button14"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:id="@+id/button19"
+        android:layout_below="@+id/button8"
+        android:layout_toEndOf="@+id/button8"
+        android:background="#fba720"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="R"
+        android:id="@+id/button20"
+        android:background="#fba720"
+        android:layout_below="@+id/button15"
+        android:layout_toEndOf="@+id/button16"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="W"
+        android:id="@+id/button21"
+        android:layout_below="@+id/button16"
+        android:layout_toEndOf="@+id/button16"
+        android:background="#fba720"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="N"
+        android:id="@+id/button22"
+        android:background="#fba720"
+        android:layout_below="@+id/button10"
+        android:layout_toStartOf="@+id/button11"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="S"
+        android:id="@+id/button23"
+        android:layout_below="@+id/button22"
+        android:layout_alignStart="@+id/button22"
+        android:background="#fba720"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:id="@+id/button24"
+        android:layout_below="@+id/button23"
+        android:layout_alignStart="@+id/button23"
+        android:background="#fba720"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="O"
+        android:id="@+id/button25"
+        android:layout_below="@+id/button10"
+        android:layout_toEndOf="@+id/button10"
+        android:background="#fba720"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="T"
+        android:id="@+id/button26"
+        android:layout_above="@+id/button24"
+        android:layout_toEndOf="@+id/button22"
+        android:background="#fba720" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="Y"
+        android:id="@+id/button27"
+        android:layout_alignBottom="@+id/button24"
+        android:layout_toEndOf="@+id/button23"
+        android:background="#fba720" />
+
+</RelativeLayout>

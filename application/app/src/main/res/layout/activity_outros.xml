@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a06235434.preodin.Outros">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Outros"
+        android:id="@+id/TextBtnOutros"
+        android:textSize="30dp"
+        android:background="#7ed987"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SELECIONE UMA DA OPÇÕES ABAIXO"
+        android:id="@+id/textViewoUTROS"
+        android:textColor="#0eb61f"
+        android:layout_above="@+id/BtnEstrangeiros"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="89dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Nomes Estrangeiros"
+        android:id="@+id/BtnEstrangeiros"
+        android:textSize="30dp"
+        android:background="#7ed987"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/textViewoUTROS"
+        android:layout_alignStart="@+id/textViewoUTROS" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Nomes Fictícios"
+        android:id="@+id/BtnFicticio"
+        android:textSize="30dp"
+        android:background="#7ed987"
+        android:layout_marginTop="59dp"
+        android:layout_below="@+id/BtnEstrangeiros"
+        android:layout_alignEnd="@+id/BtnEstrangeiros"
+        android:layout_alignStart="@+id/BtnEstrangeiros" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Curiosidades"
+        android:id="@+id/BtnCuriosidades"
+        android:textSize="30dp"
+        android:background="#7ed987"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/BtnFicticio"
+        android:layout_alignStart="@+id/BtnFicticio"
+        android:layout_alignEnd="@+id/BtnFicticio" />
+</RelativeLayout>
