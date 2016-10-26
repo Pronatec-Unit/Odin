@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     }
     // Calculo
     private double calcularMedia(double n1, double n2) {
-        double mediaFinal = (n1 + n2);
+        double mediaFinal = (n1 + n2) /10;
         return mediaFinal;
 
     }
