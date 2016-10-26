@@ -35,8 +35,10 @@ public class MainActivity extends AppCompatActivity {
                 calcNota02 = (nota02 * 6);
 
                 Double media = calcularMedia(calcNota01, calcNota02);
-                if (media>=7)
-                    textResultado.setText("APROVADO!!! sua média é: " + media.toString()); // Saida
+                if (media>=6.0)
+                    textResultado.setText("APROVADO!!! sua média é: " + media.toString());// Saida
+                else if (media>=4.0 && media<6)
+                    textResultado.setText("Recuperação Final: " + media.toString());
                 else {
                     textResultado.setText("REPROVADO!!! sua média é: " + media.toString()); //Saida
                 }
