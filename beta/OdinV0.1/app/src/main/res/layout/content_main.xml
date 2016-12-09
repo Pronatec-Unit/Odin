@@ -67,6 +67,9 @@
         android:layout_height="match_parent"
         android:layout_alignTop="@+id/toolbar2"
         android:layout_centerHorizontal="true"
-        android:layout_alignBottom="@+id/toolbar2" />
+        android:layout_alignBottom="@+id/toolbar2"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
 
 </RelativeLayout>
