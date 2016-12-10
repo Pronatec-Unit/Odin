@@ -6,5 +6,5 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_main2">Main2Activity</string>
-    <string name="title_activity_base_firebase">BaseFirebase</string>
+    <string name="title_activity_base_firebase">Resultado da Busca</string>
 </resources>
