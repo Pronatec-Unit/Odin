@@ -13,8 +13,8 @@
     tools:context="com.fsociety.projects.odinv01.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <Button
-        android:text="Sorte"
+    <!--<Button
+        android:text="FEMININOS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/button9"
@@ -23,14 +23,14 @@
         android:background="@android:color/holo_blue_light" />
 
     <Button
-        android:text="Pesquisar"
+        android:text="MASCULINOS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="108dp"
         android:id="@+id/button9"
         android:background="@android:color/holo_blue_light"
         android:layout_below="@+id/textView5"
-        android:layout_alignStart="@+id/textView5" />
+        android:layout_alignStart="@+id/textView5" />-->
 
     <TextView
         android:text="Odin"
@@ -51,25 +51,41 @@
         android:layout_below="@+id/textView4"
         android:layout_centerHorizontal="true" />
 
-    <android.support.v7.widget.Toolbar
-        android:layout_width="match_parent"
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:theme="?attr/actionBarTheme"
-        android:minHeight="?attr/actionBarSize"
+        android:text="MASCULINOS"
+        android:id="@+id/btnMasculinos"
+        android:layout_marginTop="133dp"
+        android:width="175dp"
+        android:height="70dp"
+        android:background="#42a1f3"
+        android:textColor="#ffffff"
+        android:textSize="50px"
+        android:textAlignment="center"
+        android:radius="10dp"
+        android:clickable="true"
+        android:enabled="true"
+        android:singleLine="false"
         android:layout_below="@+id/textView5"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="20dp"
-        android:id="@+id/toolbar2" />
+        android:layout_alignParentEnd="true" />
 
-    <SearchView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignTop="@+id/toolbar2"
-        android:layout_centerHorizontal="true"
-        android:layout_alignBottom="@+id/toolbar2"
-        app:showAsAction="ifRoom|collapseActionView"
-        app:actionViewClass="android.support.v7.widget.SearchView"
-        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FEMININOS"
+        android:id="@+id/btnFemininos"
+        android:width="180dp"
+        android:height="70dp"
+        android:textColor="#ffffff"
+        android:textSize="50px"
+        android:background="#e96d71"
+        android:textAlignment="center"
+        android:clickable="true"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/button9"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

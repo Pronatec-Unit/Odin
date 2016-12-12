@@ -23,15 +23,27 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button IrParaPesquisar = (Button)findViewById(R.id.button9);
+        Button IrParaMasculinos = (Button)findViewById(R.id.btnMasculinos);
 
-        IrParaPesquisar.setOnClickListener(new View.OnClickListener() {
+        IrParaMasculinos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, BaseFirebase.class);
                 startActivity(intent);
             }
         });
+
+        Button IrParaFemininos = (Button)findViewById(R.id.btnFemininos);
+
+        IrParaFemininos.setOnClickListener(new View.OnClickListener()
+
+        {
+            @Override
+            public void onClick (View v) {
+                Intent intent = new Intent(MainActivity.this, BaseFirebase.class);
+                startActivity(intent);
+            }
+            });
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
