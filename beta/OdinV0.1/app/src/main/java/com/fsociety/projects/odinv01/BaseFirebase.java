@@ -51,7 +51,7 @@ public class BaseFirebase extends AppCompatActivity {
 
         objetoRef = new Firebase("https://odinv01-25c80.firebaseio.com/");
 
-        Firebase novaRef = objetoRef.child("lista_nomes/lista_nomes_a");
+        Firebase novaRef = objetoRef.child("lista-masculinos");
 
 final ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listaDeNomes);
 listaNomes.setAdapter(adaptador);
