@@ -29,7 +29,7 @@ public class BaseFirebase2 extends AppCompatActivity {
 
         objetoRef = new Firebase("https://odinv01-25c80.firebaseio.com/");
 
-        Firebase novaRef = objetoRef.child("lista-femininos");
+        Firebase novaRef = objetoRef.child("lista_femininos");
 
         final ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listaDeNomes);
         listaNomes.setAdapter(adaptador);
